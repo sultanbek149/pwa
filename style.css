@@ -6,9 +6,45 @@
   box-sizing: border-box;
 }
 
+body {
+  width: 100%;
+}
+
 main {
   margin: auto;
-  width: 380px;
+  width: 425px;
+}
+
+.entry img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.entry {
+  height: 100vh;
+  position: relative;
+}
+
+.btns {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btns button {
+  background-color: #759eb6;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  padding: 16px;
+  width: 270px;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 main img {
