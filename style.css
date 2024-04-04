@@ -8,11 +8,12 @@
 
 body {
   width: 100%;
+  overflow-x: hidden;
 }
 
 main {
   margin: auto;
-  width: 425px;
+  max-width: 425px;
 }
 
 .entry img {
